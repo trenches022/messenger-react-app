@@ -1,0 +1,27 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+  width: 100%;
+  background-color: #2a2e38;
+}
+
+.chat-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1; 
+  overflow-y: hidden;
+}
+
+.message-list {
+  flex: 1; 
+  overflow-y: auto; 
+  padding: 10px;
+}
+
+.no-chat {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}

@@ -1,0 +1,68 @@
+.chatitems-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  background-color: #2c3139; 
+  color: white; 
+  height: 100vh; 
+  overflow-y: auto; 
+  margin-left: 80px;
+}
+
+.chatitem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background-color: #1f242c; 
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.chatitem:hover {
+  background-color: #2b3642; 
+  transform: scale(1.02); 
+}
+
+.pfp img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #1f4d7b; 
+}
+
+.status {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.status.online {
+  background-color: #4caf50;
+}
+
+.status.offline {
+  background-color: #f44336;
+}
+
+.user-name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.last-message {
+  font-size: 14px;
+  color: #a0b3cc; 
+  flex-grow: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.time {
+  font-size: 12px;
+  color: #76889e;
+}

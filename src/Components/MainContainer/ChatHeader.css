@@ -1,0 +1,20 @@
+.chat-header{
+  background-color: #1f242c;
+  display: flex;
+  gap: 10px;
+}
+
+p{
+  color: #a6a6a6;
+}
+
+.chat-header img{
+  width: 55px;
+  height: 55px;
+  margin-left: 30px;
+  margin-top: 8px;
+}
+
+.chat-status{
+  margin-top: 10px;
+}
