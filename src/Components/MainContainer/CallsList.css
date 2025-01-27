@@ -1,0 +1,29 @@
+.calls-list{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.call-item{
+  background-color: #1f242c;
+  height: 80px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 20px;
+  border-radius: 8px;
+}
+
+.call-item:hover{
+  background-color: #323944;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.calls-list i{
+  color: rgb(2, 213, 2);
+  font-size: 15px;
+}

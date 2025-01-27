@@ -3,6 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
 import ChatList from './Components/Sidebar/ChatList';
 import MainContainer from './Components/MainContainer/MainContainer';
+import NotificationsList from './Components/MainContainer/NotificationsList';
+import CallsList from './Components/MainContainer/CallsList';
+import Logout from './Components/MainContainer/Logout';
+import Settings from './Components/MainContainer/Settings';
+
 
 function App() {
   return (
@@ -21,8 +26,10 @@ function App() {
                 path="/messages"
                 element={<div className="no-chat">Choose chat</div>}
               />
-              <Route path="/settings" element={<h2>Settings</h2>} />
-              <Route path="/calls" element={<h2>Calls</h2>} />
+              <Route path="/settings" element={<Settings />} />
+              <Route path="/calls" element={<CallsList />} />
+              <Route path="/notifications" element={<NotificationsList />} />
+              <Route path="/logout" element={<Logout />} />
             </Routes>
           </div>
         </div>

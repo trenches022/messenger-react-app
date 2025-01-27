@@ -10,13 +10,13 @@ const ChatList = () => {
     {
       id: 1,
       userName: 'Rock Lee',
-      lastMessage: 'Do you have any vacation plan?',
+      lastMessage: 'Ok',
       time: '18:26',
     },
     {
       id: 2,
       userName: 'Chris Travis',
-      lastMessage: 'You might miss this last week',
+      lastMessage: 'Nevermind',
       time: '18:23',
     },
     {
@@ -27,14 +27,14 @@ const ChatList = () => {
     },
     {
       id: 4,
-      userName: 'Rick Owens',
+      userName: 'Johnnie Vicenti',
       lastMessage: 'Take it easy',
       time: '18:20',
     },
     {
       id: 5,
       userName: 'Chris Bumpsted',
-      lastMessage: 'Gym today?',
+      lastMessage: 'Gym?',
       time: '17:20',
     },
     {
@@ -45,7 +45,7 @@ const ChatList = () => {
     },
     {
       id: 7,
-      userName: 'Piotr Nałkowski',
+      userName: 'Peter Braski',
       lastMessage: 'Cya later',
       time: '16:40',
     },
@@ -58,7 +58,7 @@ const ChatList = () => {
     {
       id: 9,
       userName: 'Trisha Maw',
-      lastMessage: 'Lets make a deal',
+      lastMessage: 'co tam?',
       time: '16:07',
     },
   ];

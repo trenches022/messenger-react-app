@@ -73,7 +73,7 @@ const ChatItem = () => {
       pfp: 'https://hype5-react.vercel.app/images/avatars/Vector-15.png',
       status: 'offline',
       userName: 'Trisha Maw',
-      lastMessage: 'Lets make a deal',
+      lastMessage: 'co tam?',
       time: '16:07',
     },
 

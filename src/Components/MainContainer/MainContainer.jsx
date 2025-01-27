@@ -40,10 +40,10 @@ const MainContainer = () => {
       id: 4, 
       status: 'online', 
       pfp: 'https://hype5-react.vercel.app/images/avatars/Vector-1.png', 
-      name: 'Rick Owens', 
+      name: 'Johnnie Vicenti', 
       messages: [ 
-        { text: 'hey!', sender: 'other' },
-        { text: 'how are u?', sender: 'other' }
+        { text: 'Brother', sender: 'other' },
+        { text: 'Take it easy', sender: 'other' }
        ] },
     5: { 
       id: 5, 
@@ -67,7 +67,7 @@ const MainContainer = () => {
       id: 7, 
       status: 'last seen 1 hour ago', 
       pfp: 'https://hype5-react.vercel.app/images/avatars/Vector-13.png', 
-      name: 'Piotr Nałkowski', 
+      name: 'Peter Braski', 
       messages: [ 
         { text: 'meow meow', sender: 'other' },
         { text: '123', sender: 'other' }
@@ -95,7 +95,7 @@ const MainContainer = () => {
   const selectedChat = chatData[chatId];
 
   if (!selectedChat) {
-    return <div className="no-chat">Chat doesn't exist</div>;
+    return <div className="no-chat">Chat doesnt exist</div>;
   }
 
   const addMessage = (chatId, newMessage, sender = 'user') => {
