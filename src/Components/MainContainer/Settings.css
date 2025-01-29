@@ -1,0 +1,39 @@
+.settings-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings-profile{
+  padding-top: 20px;
+  background-color: #1f242c;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+img{
+  width: 80px;
+  height: 80px;
+}
+
+.switchtheme-btn{
+  margin-top: 20px;
+  padding: 20px 20px;
+  font-size: 15px;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  background-color: #1f242c;
+  cursor: pointer;
+}
+
+.switchtheme-btn:hover{
+  background-color: #323944;
+  transition: all 0.3s ease;
+}
